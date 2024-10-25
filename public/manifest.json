@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Webtime",
+  "version": "1.0",
+  "description": "Tracks the time spent on different websites.",
+  "icons": {
+    "48": "/logo.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Webtime"
+  },
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
